@@ -1,0 +1,35 @@
+<!DOCKTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title> CSS3 Flexbox </title>
+<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+	<nav>
+	<!--
+		RWD 回應式設計的關鍵動作s:欄位變化
+		flex 如何控制欄為變化?
+		例如: 4欄 (PC)> 2欄 (tablet)> 1欄 (phone)
+	
+		規劃:
+			1200px 以上得規劃:4 欄，固定尺寸
+			500-1200px 之間  2欄 彈性尺寸(百分比的概念)
+			500以下 1欄 彈性尺寸	
+	-->
+	
+		<div class="logo">Logo</div>
+		<div class="menu">Menu</div>
+		<div class="user">User</div>
+	</nav>
+	
+	<!--Flex 如何解決 並排切欄 水平對齊 垂直對齊 等問題-->
+	
+	<main>
+		<div class="item">News 1<br> Today is a good day.</div>
+		<div class="item">News 2</div>
+		<div class="item">News 3</div>
+		<div class="item">New 4</div>
+	</main>	
+</body>
+</html>
