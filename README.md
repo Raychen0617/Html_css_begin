@@ -1,4 +1,4 @@
-# HTML & CSS
+# HTML & CSS NOTE
 
 `<!DOCTYPE html>`   // add infront of the begining <br><br>
 `<html>` ------> most outer tag <br>
