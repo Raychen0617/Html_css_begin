@@ -2,7 +2,65 @@
 
 `<!DOCTYPE html>`   // add infront of the begining <br><br>
 `<html>` ------> most outer tag <br>
+## CSS SELECTOR
+`style` 可集中管理css的設定 {}代表一組 <br>
+code example :<br>
 
+### /* 標籤名稱選擇器*/
+```
+body{
+ font-size: 16pxl font-family:"";
+}
+
+h3{
+
+}
+```
+
+### /* class 選擇器 ---> 前方加 . */
+```
+<style type = "text/css">
+.content{css setting1}
+.title {css setting2}
+</style>
+
+<body>
+ <div class = "content">  <div/>
+</body>
+```
+### /* id 選擇器 ---> 前方加 * */
+```
+<button id="btn"></button>
+
+#btn{
+}
+```
+
+### /* 虛擬選擇器:搭配其他選擇器使用 */
+```
+/* : hover 虛擬選擇器 ---> 當滑鼠移上去的時候，套用一組設定 */
+#btn:hover{
+}
+/* : focus : 當目標對象取得焦點時(被滑鼠點到時)，套用一組設定 */
+input:focus{
+}
+```
+### /* 階層選擇器:搭配其他選擇器使用 */
+```
+a{
+ color: #0000ff;
+}
+// 當同一個tag想要有不同設定時使用
+.favorite a {
+ color : #0088000;
+}
+// 需先找到class (favorite)，在套用setting to the tag
+
+<div class="favorite">
+ <a href=" ">
+</div>
+
+```
 ## head
 `<head>` -----> second outer tag  (describe the website) <br>
 
