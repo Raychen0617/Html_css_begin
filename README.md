@@ -1,10 +1,9 @@
 # HTML & CSS NOTE
 
-`<!DOCTYPE html>`   // add infront of the begining <br><br>
-`<html>` ------> most outer tag <br>
+`<!DOCTYPE html>` ---->  add infront of the begining <br><br>
+`<html>` ------> outer tag <br>
 ## CSS SELECTOR
 `style` 可集中管理css的設定 {}代表一組 <br>
-code example :<br>
 
 ### /* 標籤名稱選擇器*/
 ```
@@ -62,11 +61,12 @@ a{
 
 ```
 ## head
-`<head>` -----> second outer tag  (describe the website) <br>
+`<head>` -----> second outer tag <br>
+used to describe the website <br>
 
 ## body
 ### `<body>` -----> second outer tag  
-### describe what will display on the website <br>
+describe what will display on the website <br><br>
 `<h3>` 3rd title (數字越小，標題越大) <br><br>
 `div` 區塊式標籤 會斷行 (可用 span 避免換行) <br>
 ### css statement
